@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Select, MenuItem, Card, CardContent, CardMedia, Typography, Box, Rating } from '@mui/material';
+import { Button, Select, MenuItem, Card, CardContent, CardMedia, Typography, Box } from '@mui/material';
 
 const ProductCard = ({ product }) => {
   const isAvailable = product.rating?.count > 0;
