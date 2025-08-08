@@ -37,9 +37,8 @@ root.render(
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/productCardTest" element={<ProductCardListTest />} />
           <Route path="*" element={<PageNotFound />} />
-          <Route path="/product/*" element={<PageNotFound />} />
-          <Route path="/productCardTest" element = {<ProductCardListTest/>}/>
         </Routes>
       </Provider>
     </ScrollToTop>
